@@ -4,14 +4,21 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
+body{
+    background-color: black;
+}
 .main{
     background-image: url(asset/image/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1400px,100vw);
-    height: 80vh;
+    height: 70vh;
     position: relative;
     
+}
+.Sign{
+    display: flex;
+    gap: 0 20px;
 }
 nav{
     display: flex;
@@ -33,24 +40,77 @@ nav button{
 }
 .hero{
     font-family: "Martel Sans", sans-serif;
-    height: 100%;
+    height: calc(100% - 62px);
+    /* height: 70vh; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: white;
     position: relative;
-
+    gap: 23px;
+    padding: 0 30px;
 }
 .hero .first{
     font-size: 48px;
     font-weight: 900;
+    text-align: center;
+}
+.hero .second{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero .third{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
 .main .box{
-    opacity: 0.44;
-    height: 80vh;
+    opacity: 0.69;
+    height: 70vh;
     width: 100%;
     background-color: black;
     position: absolute;
     top: 0;
+}
+.separation{
+    height: 8px;
+    background-color:#282828;
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.btn{
+    padding: 3px 18px;
+    font-weight: 400;
+    background-color: white;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    cursor: pointer;
+}
+.btn-red{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    padding: 9px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main input{
+    padding: 14px 151px 14px 24px;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.btn-red-sm{
+background-color: rgb(229, 9, 20);
+color: white;
+cursor: pointer;
 }
