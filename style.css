@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     background-color: black;
 }
-.main{
+
+.main {
     background-image: url(asset/image/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1400px,100vw);
+    background-size: max(1400px, 100vw);
     height: 70vh;
     position: relative;
-    
+
 }
-.Sign{
+
+.Sign {
     display: flex;
     gap: 0 20px;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,17 +33,20 @@ nav{
     margin: auto;
     height: 62px;
 }
-nav img{
+
+nav img {
     color: red;
-     width: 114px;
-     position: relative;
-     z-index: 10;
-}
-nav button{
+    width: 114px;
     position: relative;
     z-index: 10;
 }
-.hero{
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
     font-family: "Martel Sans", sans-serif;
     height: calc(100% - 62px);
     /* height: 70vh; */
@@ -51,22 +59,26 @@ nav button{
     gap: 23px;
     padding: 0 30px;
 }
-.hero .first{
+
+.hero .first {
     font-size: 48px;
     font-weight: 900;
     text-align: center;
 }
-.hero .second{
+
+.hero .second {
     font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
-.hero .third{
+
+.hero .third {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
 }
-.main .box{
+
+.main .box {
     opacity: 0.69;
     height: 70vh;
     width: 100%;
@@ -74,17 +86,20 @@ nav button{
     position: absolute;
     top: 0;
 }
-.separation{
+
+.separation {
     height: 8px;
-    background-color:#282828;
+    background-color: #282828;
 }
-.hero-buttons{
+
+.hero-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 9px;
 }
-.btn{
+
+.btn {
     padding: 3px 18px;
     font-weight: 400;
     background-color: white;
@@ -93,7 +108,8 @@ nav button{
     background-color: rgba(23, 23, 23, 0.2);
     cursor: pointer;
 }
-.btn-red{
+
+.btn-red {
     background-color: rgb(229, 9, 20);
     color: white;
     padding: 9px 24px;
@@ -101,7 +117,8 @@ nav button{
     border-radius: 4px;
     cursor: pointer;
 }
-.main input{
+
+.main input {
     padding: 14px 151px 14px 24px;
     font-weight: 400;
     font-size: 12px;
@@ -109,8 +126,9 @@ nav button{
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
-.btn-red-sm{
-background-color: rgb(229, 9, 20);
-color: white;
-cursor: pointer;
+
+.btn-red-sm {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    cursor: pointer;
 }
